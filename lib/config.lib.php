@@ -1,7 +1,8 @@
 <?php
 	/* SHOPIFY CONFIG */
-	define('API_KEY', '');
-	define('SECRET', '');
+	define('SHOPIFY_API_KEY', '');
+	define('SHOPIFY_SECRET', '');
+	define('SHOPIFY_SCOPE', 'write_content,write_products,write_orders');
 	
 	if (class_exists("Smarty"))
 	{
@@ -12,3 +13,9 @@
 		$smarty->cache_lifetime = 120;
 	}
 
+	/* simple debug function */
+	function debug(&$var) {
+		echo "<pre>";
+		print_r($var);
+		echo "</pre>";
+	}

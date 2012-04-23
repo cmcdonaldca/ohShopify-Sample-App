@@ -1,0 +1,413 @@
+/* @override http://67.222.41.29/TrackListing/css/css.css */
+
+body {
+  margin: 0;
+  font: 0.8em/1.3em "Lucida Grande", Arial, Arial, sans-serif; 
+  background: #ededed;
+}
+
+h1 { font-weight: normal; font-size: 24px; }
+h1 a { color: #FFFAD5; text-decoration: none; }
+h2 { font-weight: normal; margin-top: 24px; }
+h3 { margin-top: 24px; font-size: 28px; line-height: 1em; letter-spacing: -0.05em; }
+
+h3 em {
+	color: #26ae48;
+}
+
+
+
+#SavedMessage {background-color:#F2FFDB;color:#151515;border:1px solid #9C6;margin:10px 0px;padding:5px;}
+
+#header {
+  background: #2d3337;
+  padding: 25px 25px 25px 70px;
+  border-top: 5px solid #1f2326;
+  border-bottom: 1px solid #252a2e;
+}
+
+#header h1 { color: #fffad5; }
+
+#login-link {
+  float: right;
+  position: relative;
+  bottom: 43px;
+  right: 15px;
+  color: #ededed;
+}
+
+#login-link a { color: #ebff7c; }
+#login-link a:hover { text-decoration: underline; }
+#login-link a.shop_name { color: inherit; text-decoration: none; }
+#login-link a.shop_name:hover { text-decoration: underline; }
+
+#container {
+  width: 98px;
+  min-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#container h1 { margin: 18px 0 27px 0; }
+
+#main { padding: 18px; }
+
+#tabs {
+margin: 0 ; padding: 0 0 3px 0;
+  height: 20px;
+	background-color: #ededed;
+}
+
+#tabs li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style-type: none;
+}
+
+#tabs a:link, #tabs a:visited {
+  float: left;
+  padding: 3px 8px  ;
+  margin: 0 1px 4px 0px;
+  text-decoration: none;
+  color: #fff;
+  background: #afafaf;
+}
+
+
+
+#tabs a:link#current, #tabs a:visited#current, #tabs a:hover { color: #fff!important; }
+#tabs a:link#current, #tabs a:visited#current { font-weight: bold; background: #fff;  }
+
+a { color: #22658b; }
+a:hover { color: #359cd7; }
+
+dl { margin: 10px 15px; }
+dt { margin: 10px 0; }
+dd { margin: 5px 0 15px 0; }
+dl input { margin: 0; }
+
+code { font-size: 140%; }
+
+/* UTILITY CLASSES */
+
+
+.ta-left { text-align: left; }
+.ta-right { text-align: right; }
+.ta-center { text-align: center; }
+.pl { padding-left: 10px !important; }
+.note { color: #777; font-size: 85%; }
+.highlight { background: #ffc; }
+
+/*
+ * LOGIN / WELCOME
+ */
+
+#left, #right {
+  width: 40%;
+  float: left;
+  margin: 0 2% 30px 2%;
+}
+
+#left { min-width: 390px; }
+
+#logout { float: right; margin: 10px; }
+#logout a { color: #330; }
+
+/*
+ * DASHBOARD
+ */
+
+.order, .product { width: 55%; }
+.product { margin: 10px; } 
+
+.product img {
+  margin: 0 10px 0 0;
+  float: left;
+}
+
+.product h4 {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+}
+
+.price {
+  color: #666;
+  font-size: 15px;
+  font-family: Times, "Times New Roman";
+  font-style: italic;
+}
+
+#orders ul {
+  list-style-type: none; 
+  padding: 0 0 0 7px;
+}
+
+#orders li { padding: 3px; }
+
+#sidebar {
+  float: right; 
+  width: 280px; 
+  background: #f5fbfe; 
+  border-left: 1px solid #D7E4EA; 
+  color: #003366; 
+  padding: 0 20px 20px 20px;
+  margin-bottom: 18px;
+}
+
+#sidebar ul {
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+#sidebar li { margin: 8px 0; }
+
+/* STYLE OVERVIEW */
+
+#style-table { margin: 20px 0; }
+#style-table td * { margin: 0; }
+#style-table td { padding: 10px; border-bottom: 1px dotted #e5e5e5; }
+#style-table td:first-child {
+  background:#Fefefe url('../images/box-bg2.gif') repeat-x scroll left bottom;
+}
+/* Flash */
+
+#flasherrors, #flashnotices {
+  background: #faf7ea;
+  border-bottom: 1px solid #e8e6d9;
+	padding: 10px;
+  font-weight: bold;
+  text-align:center;
+}
+
+#flasherrors { color: #6e290b; }
+#flashnotices { color: #549d19; }
+
+/* CLASSES */
+
+.description {
+	margin: 0px 0px 0px 4px; 
+	font-weight: normal;
+}
+
+.box {
+  padding: 0;
+  background:#FAFAFA url('../images/box-bg2.gif') repeat-x scroll left top;
+  border:1px solid #CCCCCC;
+}
+
+.wrapper {
+  border:1px solid #FFFFFF;
+  padding: 10px;
+}
+
+.info {
+	padding: 0;
+	margin: 8px auto;
+	background: #009ad6 url('../images/info-bg.gif') top left repeat-x;
+  border: 1px solid #61abda;
+  font: 1.2em/1.7em "Comic Sans MS"; 
+  color: #fff;
+  height: 85px;
+}
+
+.info code {
+  font-size: 14px;
+  background: none;
+}
+
+.info a { color: #fff; }
+.info a:hover { color: #dcfaff; }
+
+.grey {
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
+.green, .orange, .blue { padding: 10px; }
+h1.green, h2.green, h3.green, h1.orange, h2.orange, h3.orange, h1.blue, h2.blue, h3.blue { padding: 0; }
+
+.green {
+  background: #61b41e;
+  border: 1px solid #60b31d;
+  color: #ddecd0;
+}
+
+h1.green, h2.green, h3.green {
+  color: #6ece21;
+  background: none;
+  border: none;
+}
+
+.orange {
+  background: #ce6e21;
+  border: 1px solid #bc641e;
+  color: #fce0ca;
+  padding: 10px;
+}
+
+h1.orange, h2.orange, h3.orange {
+  color: #ce6e21;
+  background: none;
+  border: none;
+}
+
+.blue {
+  background: #218bce;
+  border: 1px solid #1e80be;
+  color: #d9ecf8;
+  padding: 10px;
+}
+
+h1.blue, h2.blue, h3.blue {
+  color: #218bce;
+  background: none;
+  border: none;
+}
+
+.light {
+  background: #faf7ea;
+  border: 1px solid #e8e6d9;
+  padding: 18px;
+}
+
+.dark {
+  background: #333;
+  border: 1px solid #000;
+  color: #fff;
+  padding: 10px;
+}
+
+.alt{
+	background: #eee;
+}
+
+#flashnotice, #flasherrors { position: fixed; left: 0; bottom: 0; width: 100%; list-style-type: none; text-align: center; background: #000; padding: 10px; font-size: 100%; color: #fff; z-index: 9999; }
+#flashnotice { background: #172830 url('../images/bubbles.gif') top left no-repeat; border-top: 3px solid #000; color: #fff; vertical-align: center; }
+#flasherrors { background: #8A1111 url('../images/bubbles_error.gif') top left no-repeat; border-top: 3px solid #000; color: #fff; }
+
+
+
+/* reconfigured */
+.track-remove, .browse {
+	cursor: pointer;
+}
+
+
+    input {  
+        padding: 5px;  
+       
+        text-shadow: 0px 1px 0px #fff;  
+        outline: none;  
+
+        -webkit-border-radius: 3px;  
+        -moz-border-radius: 3px;  
+        border-radius: 3px;  
+        border: 1px solid #717171;  
+        -webkit-box-shadow: 1px 1px 0px #efefef;  
+        -moz-box-shadow: 1px 1px 0px #efefef;  
+        box-shadow:  1px 1px 0px #efefef;  
+    }  
+    
+        input:focus {  
+        -webkit-box-shadow: 0px 0px 5px #007eff;  
+        -moz-box-shadow: 0px 0px 5px #007eff;  
+        box-shadow: 0px 0px 5px #007eff;  
+    }
+
+div.go {
+	text-align: right;
+}
+
+th {
+	text-align: left;
+}  
+
+.track_url {
+	width: 250px;	
+}
+
+.track_name {
+	width: 300px;	
+}
+
+.submitbtn  {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 3px 20px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   text-decoration: none;
+   vertical-align: middle;
+   text-transform: uppercase;
+   border: 0;
+  margin: 20px 0 0 0;
+  cursor: pointer;
+   }
+.submitbtn:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.submitbtn:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+div.new_tracks {
+	background: #e6e6e6;
+	padding: 20px;
+	margin: 20px 0 0 0;
+	position: relative;
+}
+
+#main p em {
+	font-weight: bold;
+}
+
+#main ul  {
+	list-style: none;
+}
+
+#main ul li {
+	margin: 3px 0 0 0;
+}
+
+#main ul li a{
+	padding: 3px 20px  ;
+	margin: 3px -20px;
+	display: block;
+	text-decoration: none;
+	
+}
+#main ul li a:hover{
+	
+	background: #d4d4d4;
+	color: #000;
+}
+
+#main ul li a:before {
+    content: ".  ";
+    color: black; /* or whatever color you prefer */
+}
+
+.sound a {
+	text-indent: -9999;
+}
+
+#addmore {
+	margin: 0;
+}
