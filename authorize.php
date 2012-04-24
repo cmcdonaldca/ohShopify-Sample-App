@@ -1,5 +1,5 @@
 <?php
-include_once('lib/Smarty/libs/Smarty.class.php');
+include_once('lib/Smarty-3.1.4/libs/Smarty.class.php');
 include_once('lib/config.lib.php');
 include_once('lib/session.lib.php');
 include_once('lib/ohShopify/shopify.php');
