@@ -1,2 +1,4 @@
+lib/Smarty
+lib/ohShopify.php
 templates_c
 *.tar.gz
